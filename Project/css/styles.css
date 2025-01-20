@@ -212,3 +212,31 @@ li {
     font-size: 16px;
   }
 }
+
+/* iphone-11-pro styles */
+.iphone-11-pro {
+  color: white;
+  height: 580px;
+  padding: 65px 20px;
+  background: url(../images/home/iphone11-pro-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.iphone-11-pro .product-desc {
+  font-size: 26px;
+  padding: 10px;
+}
+
+.product-desc-small-gray {
+  color: #86868b;
+}
+.bg-black {
+  background-color: black;
+}
+.bg-black .main-content-wraper ul li a:hover {
+  color: white;
+}
+
+/* iphone 11 pro style end */
