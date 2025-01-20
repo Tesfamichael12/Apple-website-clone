@@ -167,6 +167,7 @@ li {
 }
 .main-content-wraper .product-title {
   font-size: 56px;
+  font-weight: 700;
 }
 .main-content-wraper .product-desc {
   font-size: 40px;
@@ -251,3 +252,112 @@ li {
   background-repeat: no-repeat;
 }
 /* iphone 11 style end*/
+
+/* product grid display styles */
+
+.products-wraper .product-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+.products-wraper .product-desc {
+  font-size: 20px;
+  /* min-width: 302px; */
+  /* max-width: 430px; */
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.products-wraper {
+  /* display: flex;
+  justify-content: center;
+  gap: 13.5px;
+  margin: 14px 0; */
+  text-align: center;
+}
+
+.products-wraper .main-content-wraper {
+  width: 48vw;
+  height: 580px;
+  padding: 25px;
+}
+
+/* .products-wraper .main-content-wraper:first-child {
+  margin-top: 54px;
+} */
+
+.watch {
+  background-image: url(../images/home/watch-series-5.jpg);
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.apple-card {
+  background-image: url(../images/home/apple-card.jpg);
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tv {
+  background-image: url(../images/home/apple-tv-background.jpg);
+  background-color: #fafafa;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.servant {
+  padding: 180px 0 200px;
+}
+.servant img {
+  max-width: 450px;
+  width: 100%;
+}
+.tv ul li a {
+  font-size: 17px;
+}
+.tv ul li a:after {
+  content: "\f144";
+  transition: all 0.3s;
+}
+
+.tv ul li a:hover:after {
+  transform: scale(1.1);
+  color: #f70000;
+}
+
+.airposds-pro {
+  color: white;
+  background-image: url(../images/home/air-pods.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.mac {
+  background-color: #fafafa;
+  background-image: url(../images/home/macbook-pro.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: initial;
+}
+.ipad {
+  background-image: url(../images/home/new-ipad.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #fafafa;
+}
+
+@media screen and (max-width: 768px) {
+  .products-wraper {
+    display: block;
+  }
+  .products-wraper .main-content-wraper {
+    width: 100%;
+  }
+  .products-wraper .main-content-wraper:first-child {
+    margin-top: 0;
+  }
+  .products-wraper .product-desc {
+    padding: 0;
+  }
+}
+/* product grid display styles end */
