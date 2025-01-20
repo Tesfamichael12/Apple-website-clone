@@ -152,3 +152,63 @@ img {
 li {
   list-style: none;
 }
+
+.macbook-pro {
+  background-color: #fbfbfd;
+  margin-top: 53px;
+}
+.main-content-wraper {
+  text-align: center;
+}
+
+.main-content-wraper .product-model {
+  font-size: 17px;
+  padding-top: 15px;
+}
+.main-content-wraper .product-title {
+  font-size: 56px;
+}
+.main-content-wraper .product-desc {
+  font-size: 40px;
+}
+.main-content-wraper ul li {
+  display: inline-block;
+  padding: 15px;
+}
+.main-content-wraper ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #0066cc;
+  transition: color 0.3s;
+}
+.main-content-wraper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 15px;
+  display: inline-block; /* the chevron is inline so to anmiate or transform it shoulb be block or inline-block*/
+  transition: transform 0.3s;
+}
+
+.main-content-wraper ul li a:hover {
+  color: black;
+}
+
+.main-content-wraper ul li a:hover:after {
+  transform: translateX(3px);
+}
+
+@media (max-width: 768px) {
+  .main-content-wraper .product-model {
+    font-size: 14px;
+  }
+  .main-content-wraper .product-title {
+    font-size: 36px;
+  }
+  .main-content-wraper .product-desc {
+    font-size: 24px;
+  }
+  .main-content-wraper ul li a {
+    font-size: 16px;
+  }
+}
