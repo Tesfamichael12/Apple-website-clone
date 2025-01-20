@@ -240,3 +240,14 @@ li {
 }
 
 /* iphone 11 pro style end */
+
+/* iphone 11 style */
+.iphone-11 {
+  height: 580px;
+  padding: 65px 20px;
+  background: url(../images/home/iphone11-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* iphone 11 style end*/
