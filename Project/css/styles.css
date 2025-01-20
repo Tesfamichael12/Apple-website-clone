@@ -25,6 +25,7 @@ img {
 }
 /* Header Style */
 .nav-wrapper {
+  backdrop-filter: blur(5px);
   background: rgba(0, 0, 0, 0.8);
   font-size: 0.85em;
   font-weight: 200;
