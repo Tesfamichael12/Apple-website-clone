@@ -218,7 +218,7 @@ li {
 /* iphone-11-pro styles */
 .iphone-11-pro {
   color: white;
-  height: 580px;
+  height: 680px;
   padding: 65px 20px;
   background: url(../images/home/iphone11-pro-bg.jpg);
   background-size: cover;
@@ -245,7 +245,7 @@ li {
 
 /* iphone 11 style */
 .iphone-11 {
-  height: 580px;
+  height: 680px;
   padding: 65px 20px;
   background: url(../images/home/iphone11-bg.jpg);
   background-size: cover;
