@@ -55,6 +55,7 @@ img {
 }
 .footer-wrapper ul a {
   color: #515154;
+  padding: 0 5px;
 }
 .my-apple-wrapper {
   padding-bottom: 15px;
@@ -79,7 +80,6 @@ img {
   display: flex;
 }
 .footer-links-terms ul li {
-  padding: 0 10px;
   border-right: 1px solid #d2d2d7;
 }
 .footer-links-terms ul li:first-child {
