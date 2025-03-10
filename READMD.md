@@ -2,9 +2,9 @@
 
 This project is a clone of Apple's website using Bootstrap. The goal is to create a fully responsive website that follows a mobile-first approach.
 
-## Live Demo
+## Live Demo 🌐
 
-Check out the live demo of the project: [📱 Live Demo](https://example.com/iphone-website-clone-by-tesfamichael)
+Check out the live demo of the project: [📱 Live Demo 🌐](https://example.com/iphone-website-clone-by-tesfamichael)
 
 ## Key Technologies
 
