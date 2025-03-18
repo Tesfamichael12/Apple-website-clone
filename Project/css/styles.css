@@ -43,6 +43,9 @@ img {
 }
 
 /* Footer Styling */
+.links-wrapper:hover {
+  cursor: pointer;
+}
 .footer-wrapper {
   background-color: #f5f5f7;
   color: #86868b;
@@ -118,10 +121,17 @@ img {
   }
   .footer-links-wrapper h3:after {
     font-family: "FontAwesome";
-    content: "\f067";
+    content: "\f077"; /* Up chevron */
+    opacity: 1;
     padding-left: 10px;
     position: absolute;
     right: 25px;
+    transition: opacity 3s ease;
+  }
+
+  .footer-links-wrapper h3.rotate:after {
+    content: "\f078"; /* Down chevron */
+    opacity: 1;
   }
 }
 @media (min-width: 768px) {
